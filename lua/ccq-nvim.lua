@@ -1,10 +1,11 @@
 vim.notify("Hello, world! helllo333333333333333", "info")
 
 local mt = {}
+local M = {}
 
-return setmetatable({
-  setup = function()
-    vim.notify("ccq-vim setup", "info")
-  end
-}, mt)
+function M.setup()
+  vim.notify("bbbbbbbbb", "info")
+end
+
+return setmetatable(M, mt)
 

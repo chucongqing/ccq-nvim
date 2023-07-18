@@ -1,2 +1,2 @@
 
-vim.notify("init.lua", "info")
+vim.notify("hello init.lua", "info")
